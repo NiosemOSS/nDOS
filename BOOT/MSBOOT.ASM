@@ -98,9 +98,9 @@ $START:
 ;J.K. Extened_BPB
 
 if ibmcopyright
-	  DB	  "IBM  "
+	  DB	  "NiosemOSS  "
 else
-	  DB	  "MSDOS"
+	  DB	  "nDOS"
 endif
 	  DB	  "4.0"                 ;AN005;
 ByteSec   DW	  cbSec 		; SIZE OF A PHYSICAL SECTOR

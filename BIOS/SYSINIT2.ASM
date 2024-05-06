@@ -1463,13 +1463,14 @@ INT24:
 ;	 IRET				 ;BACK TO USER
 
 	IF	ALTVECT
-BOOTMES DB	13,10,"MS-DOS version "
+BOOTMES DB	13,10,"nDOS version "
 	DB	MAJOR_VERSION + "0"
 	DB	"."
 	DB	(MINOR_VERSION / 10) + "0"
 	DB	(MINOR_VERSION MOD 10) + "0"
 	DB	13,10
-	DB	"Copyright 1981,88 Microsoft Corp.",13,10,"$"
+	DB	"MS-DOS :: 1981,88 Microsoft Corp.",13,10,"$"
+	DB	"nDOS Superset by Niosem on GitHub",13,10,"$"
 	ENDIF
 
 include copyrigh.inc			;P1821; Copyright statement
