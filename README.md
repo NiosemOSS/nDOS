@@ -6,6 +6,7 @@ paginate: true
 
 This repo contains a modified version of the MS-DOS v4.00 Source Code, originally developed by IBM and Microsoft. 
 This is my attempt at a drop-in DOS replacement.
+This is in __no way an attemtp at reproducing copytighted material. Any licencing/copyright concerns are to be addressed to my personal e-mail.__
 
 # License
 
